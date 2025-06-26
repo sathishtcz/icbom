@@ -55,7 +55,7 @@ const Footer = () => {
                 <h4 className="lg:text-xl text-lg font-bold mb-2 ">Contact Info</h4>
                 <ul className="lg:text-base ">
                   <li><a className="hover:underline"><Link to='' className='flex gap-2 items-center'><IoLocationSharp className='text-lg'/>Chennai, Tamil Nadu</Link></a></li>
-                  <li className='wrap-anywhere xl:wrap-normal'><a className="hover:underline"><Link to='' className='flex gap-2 items-center'><IoIosMail className="text-lg"/>icbom.conference@gmail.com</Link></a></li>
+                  <li className='wrap-anywhere xl:wrap-normal'><a className="hover:underline"><Link to='' className='flex gap-2 items-center'><IoIosMail className="text-lg"/>info.icbom@gmail.com</Link></a></li>
                   <li><a className="hover:underline"><Link to='' className='flex gap-2 items-center'><BiSolidPhoneCall   className='text-lg'/>+91 0101010101</Link></a></li>
                 </ul>
               </div>

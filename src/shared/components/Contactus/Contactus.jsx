@@ -114,7 +114,7 @@ export default function Contactus() {
                                 <div className="flex flex-col gap-2 items-center">
                                     <IoIosMail className="text-[#1C826E] text-4xl flex-shrink-0" />
                                     <p className="text-gray-600 inter-medium text-lg">Write to Us</p>
-                                    <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">icbom.cenference@sfsdgmail.com</p>
+                                    <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">info.icbom@gmail.com</p>
 
                                 </div>
                             </div>
