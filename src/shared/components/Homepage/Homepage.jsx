@@ -85,7 +85,7 @@ function Homepage() {
                 <div className="bg-gradient-to-r from-[#176E68] to-[#26B07C] px-4 py-6 rounded-md">
                   <div className="flex items-center gap-2  text-white">
                     <PiCalendarCheckFill className="text-2xl md:text-5xl flex-shrink-0" />
-                    <p className="text-lg lg:text-xl hanuman-semibold">August 28-30, 2025</p>
+                    <p className="text-lg lg:text-xl hanuman-semibold">31th July, 2025</p>
                   </div>
                 </div>
                 <div className="bg-gradient-to-r from-[#176E68] to-[#26B07C] px-4 py-6 rounded-md">
@@ -263,21 +263,21 @@ function Homepage() {
       </div>
 
 
-      <div className="px-3 lg:mt-18 mt-10 bg-[#82D1C9]">
+      {/* <div className="px-3 lg:mt-18 mt-10 bg-[#82D1C9]">
         <div className="xl:max-w-[1430px]  md:max-w-[920px] mx-auto py-8">
           <h3 className="hanuman-semibold text-[25px] lg:text-[35px] text-black text-center">Our Featured Speaker</h3>
           <p className="inter-regular text-black sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] mt-3">We are honored to welcome our Featured Speaker, a globally respected thought leader in business and organizational management. With a distinguished career marked by groundbreaking research, visionary leadership, and impactful contributions to industry and academia, our speaker brings a wealth of knowledge and experience to the conference.</p>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-13">
             {[1, 2, 3].map((_, index) => (
               <div key={index} className="relative flex flex-col items-center mt-20">
-                {/* Circular Icon Positioned at Top Center */}
+                Circular Icon Positioned at Top Center
                 <div className="absolute -top-22 left-1/2 transform -translate-x-1/2">
                   <div className="bg-white rounded-full border-[3px] border-[#1C826E] p-4 shadow-md ">
                     <img src="/assets/images/Speaker.png" alt="Speaker" className="w-35 object-contain" />
                   </div>
                 </div>
 
-                {/* Card */}
+                Card
                 <div className="mx-auto bg-[#1C826E] rounded-md h-full w-full">
                   <div className="bg-white rounded-tr-[60px] rounded-br-[60px] rounded-tl-[60px] rounded-bl-[60px] shadow-[0_0_10px_rgba(0,0,0,0.15)] w-full pt-30 pb-6 px-4 text-center">
                     <p className="hanuman-semibold text-black text-xl sm:text-2xl md:text-2xl lg:text-3xl">
@@ -293,7 +293,7 @@ function Homepage() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
@@ -324,7 +324,7 @@ function Homepage() {
                 <PiCalendarCheckFill className='text-4xl text-[#1C826E]' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-700">Date</p>
-                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">28th to 30th August, 2025</p>
+                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">31th July, 2025</p>
                 </div>
               </div>
             </div>

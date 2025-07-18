@@ -36,48 +36,196 @@ export default function Editorboard() {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-13 max-w-[80rem] mx-auto h-full">
                         {[
                             {
-                                name: "V Srinivasa Naresh",
-                                institution: "Sri Vasavi Engineering College",
-                                country: "India",
-                                image: "/assets/images/Speaker.png"
+                                name: "Ernesto Carrillo Arellano",
+                                department: "Department of Electronics Engineering",
+                                university: "Universidad Autónoma Metropolitana",
+                                location: "Mexico"
                             },
                             {
-                                name: "Sangar Gopal",
-                                institution: "SRM Institute of Science and Technology",
-                                country: "India",
-                                image: "/assets/images/Speaker.png"
+                                name: "Qianyun Zheng",
+                                university: "Xi’an Peihua University",
+                                location: "China"
                             },
                             {
-                                name: "Xi Zhang",
-                                institution: "University of KU Leuven",
-                                country: "Belgium",
-                                image: "/assets/images/Speaker.png"
-                            }
+                                name: "Leo John Baptist",
+                                department: "Department of Information Technology",
+                                university: "Botho University",
+                                location: "Botswana"
+                            },
+                            {
+                                name: "Rodrigo Augusto Ricco",
+                                department: "Associate Professor",
+                                university: " Federal University of Ouro Preto",
+                                location: "Brazil"
+                            },
+                            {
+                                name: "Qiushi Yang",
+                                department: "Department of Electronic Engineering",
+                                university: "City University of Hong Kong",
+                                location: "China"
+                            },
+                            {
+                                name: "K. Ramesh",
+                                university: "V.R.S. College of Engineering and Technology",
+                                location: "India"
+                            },
+                            {
+                                name: "Waseem",
+                                university: "Jiangsu University",
+                                location: "China"
+                            },
+                            {
+                                name: "Thendral Puyalnithi",
+                                department: "Assistant professor, Department of Computer Science and Engineering",
+                                university: " Kalasalingam Academy of Research and Education",
+                                location: "India"
+                            },
+                            {
+                                name: "Minhaz Uddin Emon",
+                                university: "Daffodil International University",
+                                location: "Bangladesh"
+                            },
+                            {
+                                name: "Minhaz Uddin Emon",
+                                department: " Department of Computer Science",
+                                university: "Pattimura University",
+                                location: "Indonesia"
+                            },
+                            {
+                                name: "Joseph M. Mom",
+                                department: "Department of Electrical and Electronics Engineering",
+                                university: "Joseph Sarwuan Tarka University",
+                                location: "Nigeria"
+                            },
+                            {
+                                name: "Sathish kumar M",
+                                department: "Assistant Professor, Department of computer application",
+                                university: " Hindustan Institute of Technology and Science",
+                                location: "India"
+                            },
+                            {
+                                name: "Minhaz Uddin Emon",
+                                department: " Department of Computer Science",
+                                university: "Pattimura University",
+                                location: "Indonesia"
+                            },
+                            {
+                                name: "D.Angeline Benitta",
+                                department: " Assistant Professor, Department of Computer Applications",
+                                university: "Hindustan Institute of Technology and Science",
+                                location: "India"
+                            },
+                            {
+                                name: "Ali A.Abdul saeed",
+                                university: "Wasit University",
+                                location: "Iraq"
+                            },
+                            {
+                                name: "Abraham Musa Peter ",
+                                university: "Federal University Lokoja",
+                                location: "Nigeria"
+                            },
+                            {
+                                name: "Ahmed Rimaz Faizabadi",
+                                university: "Unmanned Technologies",
+                                location: "Malaysia"
+                            },
+                            {
+                                name: "Sirajuddin Qureshi",
+                                department: "Faculty of Information Technology",
+                                university: "Beijing University of Technology",
+                                location: "China"
+                            },
+                               {
+                                name: "Muhammad Suleman Memon",
+                                department: "Department of Information Technology",
+                                university: "University of Sindh",
+                                location: "Pakistan"
+                            },
+                            {
+                                name: "Collins N. Udanor",
+                                department: "Department of Computer Science",
+                                university: "University of Nigeria",
+                                location: "Nigeria"
+                            },
+                            {
+                                name: "Arindom Kundu",
+                                department: " Department of Computer science and engineering",
+                                university: "Daffodil International University",
+                                location: "Bangladesh"
+                            },
+                            {
+                                name: "Daniel Ekpenyong Asuquo",
+                                university: "University of Uyo",
+                                location: "Nigeria"
+                            },
+                            {
+                                name: "Ameer Hamza",
+                                university: "HITEC University",
+                                location: "Pakistan"
+                            },
+                            {
+                                name: "Ijegwa David Acheme",
+                                department: "Department of Computer Science",
+                                university: "Edo State University",
+                                location: "Nigeria"
+                            },
+                            {
+                                name: "Jawwad Sami Ur Rahman",
+                                department: "Department of Biomedical Engineering",
+                                university: "Riphah International University",
+                                location: "Pakistan"
+                            },
+                            {
+                                name: "Maryam Anwer",
+                                university: " Majma University",
+                                location: "Saudi Arabia"
+                            },
+                            {
+                                name: "Tahir Abbas",
+                                department: "Department of Computer Science",
+                                university: "TIMES Institute",
+                                location: "Pakistan"
+                            },
+
+                            {
+                                name: "Hansi Gunasinghe",
+                                department: "Department of Computing and Information Systems",
+                                university: "Sabaragamuwa University of Sri Lanka",
+                                location: "Sri Lanka"
+                            },
+                            {
+                                name: "Tehreem Qasim",
+                                department: "Department of Robotics and Artificial Intelligence",
+                                university: "SZABIST University",
+                                location: "Pakistan"
+                            },
+                            {
+                                name: "Maryam Anwer",
+                                university: " Majma University",
+                                location: "Saudi Arabia"
+                            },
+
                         ].map((speaker, index) => (
-                            <div key={index} className="relative flex flex-col items-center mt-20">
-                                {/* Circular Icon Positioned at Top Center */}
-                                <div className="absolute -top-22 left-1/2 transform -translate-x-1/2">
-                                    <div className="bg-white rounded-full border-[3px] border-[#1C826E] p-4 shadow-md">
-                                        <img
-                                            src={speaker.image}
-                                            alt={speaker.name}
-                                            className="w-35 object-contain"
-                                        />
-                                    </div>
-                                </div>
+                            <div key={index} className="relative flex flex-col items-center  ">
+
 
                                 {/* Card */}
-                                <div className="bg-white rounded-md shadow-[0_0_10px_rgba(0,0,0,0.15)] w-full pt-30 pb-6 px-4 text-center h-full">
+                                <div className="bg-white rounded-md shadow-[0_0_10px_rgba(0,0,0,0.15)] w-full  p-6 text-center h-full">
                                     <p className="hanuman-medium text-black text-xl sm:text-2xl md:text-2xl lg:text-2xl">
-                                        {speaker.name}
+                                        Dr. {speaker.name}
                                     </p>
-                                    <div className="flex flex-col gap-2 mt-2">
-                                        <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px] text-justify leading-[30px]">
-                                            {speaker.institution}
+                                    <div className="flex flex-col gap-2 mt-3">
+                                        {(speaker.department && <p className="  text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-start ">
+                                            <span className="inter-semibold text-md text-gray-900">Department:</span>   {speaker.department}
+                                        </p>)}
+
+                                        <p className="  text-gray-700 sm:text-base md:text-lg lg:text-[16px]  text-start  ">
+                                            <span className="inter-semibold text-md text-gray-900">University:</span>  {speaker.university}
                                         </p>
                                         <div className="flex gap-2">
-                                            <div className="text-gray-600">
-                                                <span className="inter-medium text-md text-gray-900">Country:</span> {speaker.country}
+                                            <div className="text-gray-700 sm:text-base md:text-lg lg:text-[16px]">
+                                                <span className="inter-semibold text-md text-gray-900">Country:</span> {speaker.location}
                                             </div>
                                         </div>
                                     </div>
