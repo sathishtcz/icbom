@@ -25,18 +25,18 @@ export default function Keydates() {
       </div>
 
       <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-8 lg:mt-15">
-        <div className="space-y-4">            
-            <p className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] ">Countdown to ICBOM 2025</p>
-            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Stay on track with these important milestones for the International Conference on Business and Organizational Management. This timeline highlights all the key deadlines for abstract submissions, paper reviews and acceptance, participant registrations, and final arrangements. Whether you're presenting, attending, or partnering as a sponsor, these dates will guide your planning and ensure a smooth and successful conference experience.</p>
-         
+        <div className="space-y-4">
+          <p className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] ">Countdown to ICBOM 2025</p>
+          <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Stay on track with these important milestones for the International Conference on Business and Organizational Management. This timeline highlights all the key deadlines for abstract submissions, paper reviews and acceptance, participant registrations, and final arrangements. Whether you're presenting, attending, or partnering as a sponsor, these dates will guide your planning and ensure a smooth and successful conference experience.</p>
+
           <div className="space-y-5 max-w-3xl w-full">
             {[
-              { label: "Abstract Submission Deadline", date: "August 10, 2025" },
-              { label: "Full Paper Submission Deadline", date: "August 10, 2025" },
-              { label: "Notification of Acceptance", date: "September 15, 2025" },
-              { label: "Final Paper Submission", date: "September 30, 2025" },
-              { label: "Registration Deadline", date: "September 15, 2025" },
-              { label: "Conference Dates", date: "October 24–26, 2025" }
+              // { label: "Abstract Submission Deadline", date: "August 10, 2025" },
+              { label: "Full Paper Submission Deadline", date: "2nd July, 2025" },
+              { label: "Notification of Acceptance", date: "14th July, 2025" },
+              { label: "Final Paper Submission", date: "21st July, 2025" },
+              // { label: "Registration Deadline", date: "September 15, 2025" },
+              { label: "Conference Dates", date: "31st July, 2025" }
             ].map((item, index) => (
               <div key={index} className="flex gap-2 items-start">
                 <BsDot className="text-black text-3xl flex-shrink-0 " />
@@ -54,11 +54,11 @@ export default function Keydates() {
 
 
       <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-8 lg:mt-15">
-        <div className="space-y-4">            
-            <p className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] ">Secure Your Spot</p>
-            <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Join a global network of innovators, scholars, industry professionals, and thought leaders at the International Conference on Business and Organizational Management.
-Register now to be part of one of the most anticipated events in the fields of business strategy, organizational development, and management science. Whether you’re presenting your research, attending to broaden your knowledge, or seeking meaningful collaborations, your registration ensures access to a rich and engaging conference experience.</p>
-         
+        <div className="space-y-4">
+          <p className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] ">Secure Your Spot</p>
+          <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Join a global network of innovators, scholars, industry professionals, and thought leaders at the International Conference on Business and Organizational Management.
+            Register now to be part of one of the most anticipated events in the fields of business strategy, organizational development, and management science. Whether you’re presenting your research, attending to broaden your knowledge, or seeking meaningful collaborations, your registration ensures access to a rich and engaging conference experience.</p>
+
           <div className="space-y-5 max-w-3xl w-full">
             {[
               { label: "Account Name", date: "ICBOM Conference" },

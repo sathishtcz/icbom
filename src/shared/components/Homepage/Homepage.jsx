@@ -85,13 +85,13 @@ function Homepage() {
                 <div className="bg-gradient-to-r from-[#176E68] to-[#26B07C] px-4 py-6 rounded-md">
                   <div className="flex items-center gap-2  text-white">
                     <PiCalendarCheckFill className="text-2xl md:text-5xl flex-shrink-0" />
-                    <p className="text-lg lg:text-xl hanuman-semibold">31th July, 2025</p>
+                    <p className="text-lg lg:text-xl hanuman-semibold">31<sup>st</sup> July, 2025</p>
                   </div>
                 </div>
                 <div className="bg-gradient-to-r from-[#176E68] to-[#26B07C] px-4 py-6 rounded-md">
                   <div className="flex items-center gap-2  text-white">
                     <IoLocationSharp className="text-2xl md:text-5xl flex-shrink-0" />
-                    <p className="text-lg lg:text-xl hanuman-semibold">Tamil Nadu, Chennai</p>
+                    <p className="text-lg lg:text-xl hanuman-semibold">Hong Kong, China</p>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ function Homepage() {
                 </text>
                 <text className="fill-black font-bold text-lg tracking-widest">
                   <textPath href="#bottom-circle" startOffset="50%" textAnchor="middle">
-                    CHENNAI
+                    HONG KONG, CHINA
                   </textPath>
                 </text>
               </g>
@@ -294,9 +294,6 @@ function Homepage() {
           </div>
         </div>
       </div> */}
-
-
-
       {/* Join Us at ICBOM 2025 */}
       <div className="lg:mt-14 mt-10 text-center">
         <div className="flex flex-row justify-center gap-2 items-center ">
@@ -313,7 +310,7 @@ function Homepage() {
                 <IoLocationSharp className='text-4xl text-[#1C826E]' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-700">Location</p>
-                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">TamilNadu, Chennai</p>
+                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">Hong Kong, China</p>
                 </div>
               </div>
             </div>
@@ -324,7 +321,7 @@ function Homepage() {
                 <PiCalendarCheckFill className='text-4xl text-[#1C826E]' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-700">Date</p>
-                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">31th July, 2025</p>
+                  <p className="inter-medium sm:text-base md:text-lg lg:text-[16px] text-black">31<sup>st</sup> July, 2025</p>
                 </div>
               </div>
             </div>

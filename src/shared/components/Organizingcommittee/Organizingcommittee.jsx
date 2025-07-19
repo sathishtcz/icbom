@@ -39,7 +39,7 @@ export default function Organizingcommittee() {
 
 
 
-
+{/*
       <h3 className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] text-center mt-8 lg:mt-15">Planning & Coordination Committee</h3>
       <div className="xl:max-w-[1150px]  md:max-w-[920px] mx-auto lg:px-3   lg:mt-8 mt-5">
         <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 md:gap-10 lg:gap-20 p-4 ">
@@ -53,14 +53,14 @@ export default function Organizingcommittee() {
               key={index}
               className="bg-[#82D1C9] rounded-lg relative flex items-start lg:justify-center gap-4 sm:gap-6 py-6 sm:py-8 md:py-10 md:pl-10 lg:pl-25 xl:pl-10 "
             >
-              {/* Profile Image Box Positioned Absolutely */}
+              Profile Image Box Positioned Absolutely
               <div className="absolute -left-8 sm:-left-10 md:-left-13 top-1/2 transform -translate-y-1/2 hidden   lg:block">
                 <div className="bg-white border-4 border-[#82D1C9] p-2 sm:p-3 md:p-4 rounded-lg shadow-md">
                   <img src="/assets/images/editor1.png" alt="Editor" className="w-20 sm:w-24 md:w-36" />
                 </div>
               </div>
 
-              {/* Content */}
+              Content
               <div className="space-y-2 pl-6 sm:pl-8 md:pl-10">
                 <p className="inter-semibold  text-base md:text-lg text-gray-700">{committee}</p>
                 <p className="inter-medium text-lg sm:text-xl md:text-2xl">{Name}</p>
@@ -78,7 +78,7 @@ export default function Organizingcommittee() {
           ))}
         </div>
 
-      </div>
+      </div>*/}
     </>
   )
 }

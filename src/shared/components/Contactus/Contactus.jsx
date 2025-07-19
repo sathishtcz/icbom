@@ -124,7 +124,7 @@ export default function Contactus() {
                                 <div className="flex flex-col gap-2 items-center">
                                     <IoLocationSharp className="text-[#1C826E] text-4xl flex-shrink-0" />
                                     <p className="text-gray-600 inter-medium text-lg">Location</p>
-                                    <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">TamilNadu, Chennai</p>
+                                    <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">Hong Kong, China</p>
                                 </div>
                             </div>
                         </div>
