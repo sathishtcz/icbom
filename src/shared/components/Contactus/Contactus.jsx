@@ -99,8 +99,8 @@ export default function Contactus() {
             <div className="xl:max-w-[1050px] md:max-w-[920px] px-3 mx-auto mt-8  ">
                 <div className="flex flex-col gap-15">
 
-                    <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 h-full w-full">
-                        <div>
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 h-full w-full">
+                        {/* <div>
                             <div className="bg-white rounded-md shadow-[0_0_10px_rgba(0,0,0,0.15)] h-full w-full px-2 py-4">
                                 <div className="flex flex-col gap-2 items-center">
                                     <LiaPhoneVolumeSolid className="text-[#1C826E] text-4xl flex-shrink-0" />
@@ -108,7 +108,7 @@ export default function Contactus() {
                                     <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">+91 9745551212118</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div>
                             <div className="bg-white rounded-md shadow-[0_0_10px_rgba(0,0,0,0.15)] h-full w-full py-4  px-2 ">
                                 <div className="flex flex-col gap-2 items-center">

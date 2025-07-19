@@ -44,7 +44,7 @@ const Footer = () => {
                 <ul className="lg:text-base list-disc list-inside">
                   <li><a className="hover:underline"><Link to='/key-dates'>Key Dates</Link> </a></li>
                   <li><a className="hover:underline"><Link to='/conference-tracks'>Conference Tracks</Link></a></li>
-                  <li><a className="hover:underline"><Link to='/paper-submission'>Paper submission </Link>  </a></li>
+                  <li><a className="hover:underline"><Link to='/paper-submission'>Paper Submission </Link>  </a></li>
                 </ul>
               </div>
             </div>

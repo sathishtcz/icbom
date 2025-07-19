@@ -53,7 +53,7 @@ export default function Keydates() {
       </div>
 
 
-      <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-8 lg:mt-15">
+      {/* <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-8 lg:mt-15">
         <div className="space-y-4">
           <p className="hanuman-bold text-[#1C826E] text-[25px] lg:text-[35px] ">Secure Your Spot</p>
           <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">Join a global network of innovators, scholars, industry professionals, and thought leaders at the International Conference on Business and Organizational Management.
@@ -79,7 +79,7 @@ export default function Keydates() {
 
 
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
