@@ -32,7 +32,7 @@ export default function Organizingcommittee() {
             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">2. Manage the budget, registration fees, and sponsorships while ensuring transparency and optimal allocation of resources.</p>
             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">3. Collect feedback from participants and stakeholders to evaluate the event’s success and identify areas for future improvement.</p>
             <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">4. Ensure seamless execution of the event through real-time management of sessions, technical troubleshooting, and attendee support.</p>
-          </div>
+          </div>       
         </div>
       </div>
 

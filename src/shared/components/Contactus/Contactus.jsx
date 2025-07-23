@@ -41,7 +41,7 @@ export default function Contactus() {
             //     formDataToSend.append('Paper_File', formData.Paper_File);
             // }
 
-            const response = await fetch('http://192.168.29.11/ICBOM/Icbom/contact.php', {
+            const response = await fetch('https://icbom.org/api/contact.php', {
                 method: 'POST',
                 body: formDataToSend,
             });
