@@ -32,24 +32,24 @@ function Register() {
                                     <div className="absolute inset-0 bg-[#000000] opacity-10"></div>
                                     <div className="flex flex-col justify-between items-center">
                                         <div><img src="/assets/images/Globe.png" alt="Crowd" className="w-15 h-15 flex-shrink-0 w" /></div>
-                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">500+</p>
-                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Attendees</p>
+                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">50+</p>
+                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Countries</p>
                                     </div>
                                 </div>
                                 <div className="relative rounded-md border-2 border-white lg:px-17 px-7 py-2">
                                     <div className="absolute inset-0 bg-[#000000] opacity-10"></div>
                                     <div className="flex flex-col justify-between items-center">
                                         <div><img src="/assets/images/Papers.png" alt="Crowd" className="w-13 h-15 flex-shrink-0" /></div>
-                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">500+</p>
-                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Attendees</p>
+                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">100+</p>
+                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Papers</p>
                                     </div>
                                 </div>
                                 <div className="relative rounded-md border-2 border-white lg:px-17 px-7 py-2">
                                     <div className="absolute inset-0 bg-[#000000] opacity-10"></div>
                                     <div className="flex flex-col justify-between items-center">
                                         <div><img src="/assets/images/Calendar.png" alt="Crowd" className="w-13 h-15 flex-shrink-0" /></div>
-                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">500+</p>
-                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Attendees</p>
+                                        <p className="inter-semibold text-white lg:text-4xl text-2xl">3</p>
+                                        <p className="inter-regular text-white sm:text-base md:text-lg lg:text-[16px]">Days</p>
                                     </div>
                                 </div>
                             </div>

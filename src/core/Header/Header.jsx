@@ -103,7 +103,7 @@ const Header = () => {
 
 
     return (
-        <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${scrolled ? "bg-gradient-to-r from-[#176E68] to-[#26B07C]" : "bg-gradient-to-r from-[#176E68] to-[#26B07C]"}`}>
+        <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${scrolled ? "bg-gradient-to-r from-[#176E68] to-[#26B07C] shadow-md" : "bg-gradient-to-r from-[#176E68] to-[#26B07C]"}`}>
             <div className="mx-auto w-full xl:max-w-[1450px] md:max-w-[920px] flex items-center justify-between px-3">
                 <div className="py-3">
                     {/* <Link to="/" className={`text-4xl hanuman-bold ${scrolled ? "text-white" : "text-white"}`}>
